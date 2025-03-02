@@ -34,7 +34,7 @@ const VideoPlayer = ({ src }) => {
   return (
     <div
       ref={containerRef}
-      className="hidden md:flex relative w-full h-screen items-center justify-center bg-black overflow-hidden"
+      className="hidden md:flex relative w-full lg:h-screen items-center justify-center bg-black overflow-hidden"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
