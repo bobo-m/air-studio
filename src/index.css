@@ -1,2 +1,26 @@
-@import "tailwindcss"
+@import "tailwindcss";
+@import "@fontsource/barlow-semi-condensed/500.css";
 
+@font-face {
+  font-family: "Didot";
+  src: url("/fonts/Didot_Italic.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Futura";
+  src: url("/fonts/Futura.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+  --font-barlow: "Barlow Semi Condensed", sans-serif;
+  --font-didot: "Didot";
+  --font-futura: "Futura";
+  --spacing-header-height: 96px;
+  --color-corvid: #ff5900;
+  --color-grey: rgb(135, 135, 135);
+  --color-grey2: #c3c3c3;
+}
